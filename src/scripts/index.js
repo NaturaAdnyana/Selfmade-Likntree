@@ -2,8 +2,17 @@ import 'regenerator-runtime';
 import '../styles/style.css';
 import '../styles/pre-loader.css';
 import './utils/pre-loader.js';
+import { links, owner_name, owner_desc, owner_pics } from '../public/data/data.json';
 
-import { links } from '../public/data/data.json';
+const profile = document.querySelector('#profile');
+const linkList = document.querySelector('#link-list');
+
+profile.innerHTML = `
+  <h1 id="inform">- - -</h1>
+  <img class="owner-pics" src="${owner_pics}" alt="My Pics">
+  <h2>${owner_name}</h1>
+  <h3>${owner_desc}</h3>
+`;
 
 let linkHTML = '';
 links.forEach(link => {
@@ -18,5 +27,5 @@ links.forEach(link => {
       </div>
     </a>
   `;
-  document.querySelector('#link-list').innerHTML = linkHTML;
+  linkList.innerHTML = linkHTML;
 });

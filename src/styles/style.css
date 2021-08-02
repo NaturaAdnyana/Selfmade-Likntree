@@ -28,12 +28,14 @@ main{
   width: 100%;
   padding: 40px 0;
   text-align: center;
+  transition: 0.5s;
+  opacity: 0;
 }
 .owner-pics{
   margin-top: 30px;
   border: solid 10px rgba(33,33,33,1);
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   border-radius: 30px;
   box-shadow: 0 5px 10px rgb(10, 10, 10), 0 -5px 10px rgb(43, 43, 43);
 }
@@ -69,10 +71,10 @@ main h3{
 .link-name{
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 15px;
+  padding: 10px;
 }
 .link-name h4{
-  font-size: 6vw;
+  font-size: 5vw;
 }
 .link-img{
   grid-column-start: 3;
@@ -98,4 +100,8 @@ footer{
 footer span{
   color: rgb(160, 41, 41);
   text-shadow: 0px 0px 5px rgb(197, 0, 0);
+}
+footer p{
+  margin-top: 5px;
+  font-size: 3vw;
 }

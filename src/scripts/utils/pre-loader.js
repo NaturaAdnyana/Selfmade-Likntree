@@ -1,4 +1,5 @@
 const preloader = document.querySelector('#pre-loader');
+const main = document.querySelector('main');
 
 preloader.innerHTML = `
   <div class="loadingio-spinner-pulse-ox5rqih3sel"><div class="ldio-n7trox3rja">
@@ -12,4 +13,7 @@ window.addEventListener('load', () => {
   setTimeout(() => {
     preloader.remove();
   }, 1000);
+  setTimeout(() => {
+    main.style.opacity = '1';
+  }, 500);
 });

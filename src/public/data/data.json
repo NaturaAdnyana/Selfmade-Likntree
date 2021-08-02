@@ -1,7 +1,7 @@
 {
-  "owner-name": "Natura Adnyana",
-  "owner-desc": "Son & Student based in Bali",
-  "owner-pics": "images/profile.jpg",
+  "owner_name": "Natura Adnyana",
+  "owner_desc": "Son & Student based in Bali",
+  "owner_pics": "images/profile.jpg",
   "links": [
     {
       "deploy": true,
@@ -14,7 +14,7 @@
       "deploy": false,
       "name": "My Personal Web",
       "icon": "images/wordpress.png",
-      "desc": "Portofolio, Blogs, Etc.",
+      "desc": "Portofolios, Blogs, Etc.",
       "link": "#"
     },
     {
@@ -28,7 +28,7 @@
       "deploy": true,
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
-      "desc": "Go check my sertifications",
+      "desc": "Go check my certifications",
       "link": "https://www.linkedin.com/in/natura-adn/"
     },
     {
