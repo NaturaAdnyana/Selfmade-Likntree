@@ -1,0 +1,22 @@
+.swal-overlay {
+  background-color: rgba(0, 0, 0, 0.651);
+}
+.swal-modal{
+  background: rgba(34, 34, 34, 0.534);
+  border-radius: 40px 15px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 5px 5px black;
+}
+.swal-title, .swal-text{
+  text-align: center;
+  color: white;
+}
+.swal-footer {
+  text-align: center;
+}
+.swal-button {
+  padding: 10px 30px;
+  background-color: #161616;
+  border-radius: 15px 10px;
+}

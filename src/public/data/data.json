@@ -1,52 +1,47 @@
 {
   "owner_name": "Natura Adnyana",
-  "owner_desc": "Son & Student based in Bali",
+  "owner_desc": "Student based in Bali",
   "owner_pics": "images/profile.jpg",
+  "owner_announcement": "",
   "links": [
     {
-      "deploy": true,
       "name": "Instagram",
       "icon": "images/instagram.png",
       "desc": "My Instagram Account",
       "link": "https://www.instagram.com/natkunn_/"
     },
     {
-      "deploy": false,
+
       "name": "My Personal Web",
       "icon": "images/wordpress.png",
       "desc": "Portofolios, Blogs, Etc.",
       "link": "#"
     },
     {
-      "deploy": true,
       "name": "Whisper Me",
       "icon": "images/whisper-me.png",
       "desc": "You can say anything to me.",
       "link": "https://whisper-me-natkun.netlify.app/"
     },
     {
-      "deploy": true,
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
       "desc": "Go check my certifications",
       "link": "https://www.linkedin.com/in/natura-adn/"
     },
     {
-      "deploy": true,
       "name": "Github",
       "icon": "images/github-icon.png",
       "desc": "Go check my projects",
       "link": "https://github.com/NaturaAdnyana"
     },
     {
-      "deploy": true,
       "name": "Spotify",
       "icon": "images/spotify.png",
       "desc": "Yakin selera sama?",
       "link": "https://open.spotify.com/user/21xc362ojhdjiwb5p4bumpqii?si=b77fa0e1cdfa42f3"
     },
     {
-      "deploy": true,
       "name": "Second IG Account",
       "icon": "images/instagram.png",
       "desc": "Isinya gajelas.",
