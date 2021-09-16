@@ -8,8 +8,14 @@
   color: rgb(173, 173, 173);
 }
 body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app{
   background: linear-gradient(0deg, rgba(33,33,33,1) 38%, rgba(57,57,57,1) 100%) no-repeat;
   transition: 1s;
+  max-width: 480px;
 }
 .pre-loader{
   width: 100%;
@@ -40,15 +46,15 @@ main{
   box-shadow: 0 5px 10px rgb(10, 10, 10), 0 -5px 10px rgb(43, 43, 43);
 }
 main h1{
-  font-size: 5vw;
+  font-size: 1rem;
 }
 main h2{
   margin-top: 15px;
-  font-size: 7vw;
+  font-size: 2rem;
 }
 main h3{
   margin-top: 5px;
-  font-size: 4vw;
+  font-size: 1.5rem;
 }
 .link-list{
   margin-top: 5px;
@@ -75,7 +81,7 @@ main h3{
   padding: 10px;
 }
 .link-name h4{
-  font-size: 5vw;
+  font-size: 1.3rem;
 }
 .link-img{
   grid-column-start: 3;
@@ -94,7 +100,7 @@ footer{
   border-radius: 30% 30% 0 0;
   text-align: center;
   padding: 40px 0 20px 0;
-  font-size: 2vw;
+  font-size: 0.6rem;
   background: rgb(26, 26, 26);
   box-shadow: 0 5px 10px rgb(10, 10, 10), 0 -5px 10px rgb(43, 43, 43);
 }
@@ -104,5 +110,5 @@ footer span{
 }
 footer p{
   margin-top: 5px;
-  font-size: 3vw;
+  font-size: 1rem;
 }
