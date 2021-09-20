@@ -83,8 +83,14 @@ main h3{
   grid-column-end: 3;
   padding: 10px;
 }
+.link-name *{
+  padding: 2px;
+}
 .link-name h4{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+.link-name p{
+  font-size: 1rem;
 }
 .link-img{
   grid-column-start: 3;
@@ -103,7 +109,7 @@ footer{
   border-radius: 30% 30% 0 0;
   text-align: center;
   padding: 40px 0 20px 0;
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   background: rgb(26, 26, 26);
   box-shadow: 0 5px 10px rgb(10, 10, 10), 0 -5px 10px rgb(53, 53, 53);
 }
@@ -113,5 +119,5 @@ footer span{
 }
 footer p{
   margin-top: 5px;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
