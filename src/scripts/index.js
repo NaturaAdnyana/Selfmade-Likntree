@@ -1,20 +1,20 @@
-import 'regenerator-runtime';
-import '../styles/style.css';
-import '../styles/pre-loader.css';
-import '../styles/alert.css';
-import './utils/pre-loader.js';
-import swal from 'sweetalert';
+import "regenerator-runtime";
+import "../styles/style.css";
+import "../styles/pre-loader.css";
+import "../styles/alert.css";
+import "./utils/pre-loader.js";
+import swal from "sweetalert";
 
 const {
   owner_name,
-  owner_desc, 
-  owner_pics, 
-  owner_announcement, 
-  links
-} = require('../public/data/data.json');
+  owner_desc,
+  owner_pics,
+  owner_announcement,
+  links,
+} = require("../public/data/data.json");
 
-const profile = document.querySelector('#profile');
-const linkList = document.querySelector('#link-list');
+const profile = document.querySelector("#profile");
+const linkList = document.querySelector("#link-list");
 
 profile.innerHTML = `
   <h1 id="inform">${owner_announcement}</h1>
@@ -23,9 +23,9 @@ profile.innerHTML = `
   <h3>${owner_desc}</h3>
 `;
 
-let linkHTML = '';
-links.forEach(link => {
-  if (link.link == '#') {
+let linkHTML = "";
+links.forEach((link) => {
+  if (link.link == "#") {
     linkHTML += `
     <a id="link-button" href="${link.link}"
     onclick="swal({
@@ -35,10 +35,9 @@ links.forEach(link => {
       button: 'Sip',
       });">
     `;
-  }
-  else{
+  } else {
     linkHTML += `
-    <a id="link-button" href="${link.link}">
+    <a id="link-button" href="${link.link}" target="_blank" rel="noreferrer noopener">
     `;
   }
   linkHTML += `
