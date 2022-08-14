@@ -2,8 +2,14 @@
   "owner_name": "Natura Adnyana",
   "owner_desc": "Student based in Bali",
   "owner_pics": "images/profile.jpg",
-  "owner_announcement": "- Hey it's cloudy innit? -",
   "links": [
+    {
+      "new": true,
+      "name": "My Personal Web",
+      "icon": "images/wordpress.png",
+      "desc": "Portfolios, Blogs, Etc.",
+      "link": "https://www.naturaadnyana.com/"
+    },
     {
       "name": "Instagram",
       "icon": "images/instagram.png",
@@ -11,21 +17,9 @@
       "link": "https://www.instagram.com/natkunn_/"
     },
     {
-      "name": "My Personal Web",
-      "icon": "images/wordpress.png",
-      "desc": "Portfolios, Blogs, Etc.",
-      "link": "https://www.naturaadnyana.com/"
-    },
-    {
-      "name": "Whisper Me",
-      "icon": "images/whisper-me.png",
-      "desc": "You can say anything to me.",
-      "link": "https://whisper-me-natkun.netlify.app/"
-    },
-    {
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
-      "desc": "Go check my certifications",
+      "desc": "Go check my linkedln profile",
       "link": "https://www.linkedin.com/in/natura-adn/"
     },
     {
@@ -45,6 +39,12 @@
       "icon": "images/instagram.png",
       "desc": "Isinya gajelas.",
       "link": "https://www.instagram.com/more.natkun/"
+    },
+    {
+      "name": "Whisper Me",
+      "icon": "images/whisper-me.png",
+      "desc": "Bebas mau bilang apa saja.",
+      "link": "https://whisper-me-natkun.netlify.app/"
     }
   ]
 }

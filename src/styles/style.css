@@ -14,7 +14,6 @@ body {
 }
 #app {
   background-color: rgba(33, 33, 33, 1);
-  /* background: linear-gradient(0deg, rgba(33,33,33,1) 38%, rgba(57,57,57,1) 100%) no-repeat; */
   max-width: 480px;
 }
 .pre-loader {
@@ -42,7 +41,8 @@ main {
   width: 60%;
   height: 60%;
   border-radius: 30px;
-  box-shadow: 2px 5px 10px rgb(10, 10, 10), -2px -5px 10px rgb(53, 53, 53);
+  box-shadow: 0px 10px 10px rgb(20, 20, 20), 10px 0px 10px rgb(25, 25, 25),
+    -5px -5px 10px rgb(53, 53, 53);
 }
 main h1 {
   font-size: 1rem;
@@ -62,12 +62,11 @@ main h3 {
 .link-list a {
   margin-top: 20px;
   border-radius: 30px 10px;
-  /* background: rgb(34, 34, 34); */
   background: rgba(33, 33, 33, 1);
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   overflow: hidden;
-  /* box-shadow: 2px 4px 10px rgb(10, 10, 10), -2px -4px 10px rgb(53, 53, 53), inset -2px -2px 10px rgb(10, 10, 10), inset 2px 2px 10px rgb(53, 53, 53); */
   box-shadow: 2px 4px 10px rgb(10, 10, 10), -2px -4px 10px rgb(53, 53, 53),
     inset -1px -1px 10px rgb(10, 10, 10), inset 1px 1px 10px rgb(53, 53, 53);
   text-decoration: none;
@@ -77,9 +76,12 @@ main h3 {
   box-shadow: inset 0 4px 10px rgb(10, 10, 10),
     inset 0 -4px 10px rgb(53, 53, 53);
 }
+.link-icon {
+  padding: 10px;
+  width: 12%;
+  height: 12%;
+}
 .link-name {
-  grid-column-start: 1;
-  grid-column-end: 3;
   padding: 10px;
 }
 .link-name * {
@@ -87,15 +89,15 @@ main h3 {
 }
 .link-name h4 {
   font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .link-name p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .link-img {
-  grid-column-start: 3;
-  grid-column-start: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -119,4 +121,13 @@ footer span {
 footer p {
   margin-top: 5px;
   font-size: 0.8rem;
+}
+
+.new-label {
+  padding: 2px 5px;
+  border-radius: 5px;
+  background: rgb(213, 53, 53);
+  font-size: 0.8rem;
+  color: rgba(33, 33, 33, 1);
+  box-shadow: 0px 0px 5px rgb(255, 57, 57);
 }

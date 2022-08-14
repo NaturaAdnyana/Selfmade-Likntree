@@ -9,15 +9,24 @@ const {
   owner_name,
   owner_desc,
   owner_pics,
-  owner_announcement,
   links,
 } = require("../public/data/data.json");
 
 const profile = document.querySelector("#profile");
 const linkList = document.querySelector("#link-list");
 
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning folks!";
+} else if (time < 18) {
+  greeting = "Good Afternoon folks!";
+} else {
+  greeting = "Good evening";
+}
+
 profile.innerHTML = `
-  <h1 id="inform">${owner_announcement}</h1>
+  <h1 id="inform">- ${greeting} -</h1>
   <img class="owner-pics" src="${owner_pics}" alt="My Pics">
   <h2>${owner_name}</h1>
   <h3>${owner_desc}</h3>
@@ -41,13 +50,21 @@ links.forEach((link) => {
     `;
   }
   linkHTML += `
-      <div class="link-name">
-        <h4>${link.name}</h4>
-        <p>${link.desc}</p>
-      </div>
       <div class="link-img">
-        <img class="link-img" src="${link.icon}" alt="">
+      <img class="link-img" src="${link.icon}" alt="">
       </div>
+      <div class="link-name">
+        <h4>
+          ${link.name}
+          ${link.new ? "<span class='new-label'>New!</span>" : ""} 
+        </h4>
+        <p>${link.desc}</p>
+        </div>
+        <div class="link-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </div>
     </a>
   `;
   linkList.innerHTML = linkHTML;
