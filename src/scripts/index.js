@@ -20,9 +20,9 @@ let greeting;
 if (time < 10) {
   greeting = "Good morning folks!";
 } else if (time < 18) {
-  greeting = "Good Afternoon folks!";
+  greeting = "Good afternoon folks!";
 } else {
-  greeting = "Good evening";
+  greeting = "Good evening folks!";
 }
 
 profile.innerHTML = `

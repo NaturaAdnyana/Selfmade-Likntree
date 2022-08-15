@@ -7,19 +7,19 @@
       "new": true,
       "name": "My Personal Web",
       "icon": "images/wordpress.png",
-      "desc": "Portfolios, Blogs, Etc.",
+      "desc": "Portfolios, blogs, etc.",
       "link": "https://www.naturaadnyana.com/"
     },
     {
       "name": "Instagram",
       "icon": "images/instagram.png",
-      "desc": "My Instagram Account",
-      "link": "https://www.instagram.com/natkunn_/"
+      "desc": "My Instagram account",
+      "link": "https://www.instagram.com/natura.adn/"
     },
     {
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
-      "desc": "Go check my linkedln profile",
+      "desc": "Go check my linkedin profile",
       "link": "https://www.linkedin.com/in/natura-adn/"
     },
     {
