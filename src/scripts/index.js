@@ -7,6 +7,7 @@ import swal from "sweetalert";
 
 const {
   owner_name,
+  owner_flag,
   owner_desc,
   owner_pics,
   links,
@@ -26,10 +27,14 @@ if (time < 10) {
 }
 
 profile.innerHTML = `
-  <h1 id="inform">- ${greeting} -</h1>
+  <div class="greeting" id="inform">- ${greeting} -</div>
   <img class="owner-pics" src="${owner_pics}" alt="My Pics">
-  <h2>${owner_name}</h1>
-  <h3>${owner_desc}</h3>
+  <h1>${owner_name}</h1>
+  <h2>
+  ${owner_flag}
+  </br>
+  ${owner_desc}
+  </h2>
 `;
 
 let linkHTML = "";
@@ -56,7 +61,7 @@ links.forEach((link) => {
       <div class="link-name">
         <h4>
           ${link.name}
-          ${link.new ? "<span class='new-label'>New!</span>" : ""} 
+          ${link.new ? "<span class='new-label'>2 y.o</span>" : ""} 
         </h4>
         <p>${link.desc}</p>
         </div>

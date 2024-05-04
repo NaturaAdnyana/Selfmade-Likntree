@@ -1,6 +1,7 @@
 {
   "owner_name": "Natura Adnyana",
-  "owner_desc": "Student based in Bali",
+  "owner_flag": "half indo-jpn.",
+  "owner_desc": "idk chatgpt didn't give me any perfect caption.",
   "owner_pics": "images/profile.jpg",
   "links": [
     {
@@ -8,42 +9,42 @@
       "name": "My Personal Web",
       "icon": "images/wordpress.png",
       "desc": "Portfolios, blogs, etc.",
-      "link": "https://www.naturaadnyana.com/"
+      "link": "https://natsura.my.id/"
     },
     {
       "name": "Instagram",
       "icon": "images/instagram.png",
-      "desc": "My Instagram account",
+      "desc": "My Instagram account (from 2015).",
       "link": "https://www.instagram.com/natura.adn/"
     },
     {
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
-      "desc": "Go check my linkedin profile",
-      "link": "https://www.linkedin.com/in/natura-adn/"
+      "desc": "Go check my linkedin profile.",
+      "link": "https://www.linkedin.com/in/natura-adnyana/"
     },
     {
       "name": "Github",
       "icon": "images/github-icon.png",
-      "desc": "Go check my projects",
+      "desc": "Go check my projects.",
       "link": "https://github.com/NaturaAdnyana"
+    },
+    {
+      "name": "X",
+      "icon": "images/x.png",
+      "desc": "Love hate elon musk.",
+      "link": "https://x.com/inoue_natsura"
     },
     {
       "name": "Spotify",
       "icon": "images/spotify.png",
-      "desc": "Yakin selera sama?",
+      "desc": "Plz don't bankrupt.",
       "link": "https://open.spotify.com/user/21xc362ojhdjiwb5p4bumpqii?si=b77fa0e1cdfa42f3"
-    },
-    {
-      "name": "Second IG Account",
-      "icon": "images/instagram.png",
-      "desc": "Isinya gajelas.",
-      "link": "https://www.instagram.com/more.natkun/"
     },
     {
       "name": "Whisper Me",
       "icon": "images/whisper-me.png",
-      "desc": "Bebas mau bilang apa saja.",
+      "desc": "Katakan apapun, anonymously.",
       "link": "https://whisper-me-natkun.netlify.app/"
     }
   ]
