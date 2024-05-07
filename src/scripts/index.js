@@ -27,14 +27,18 @@ if (time < 10) {
 }
 
 profile.innerHTML = `
-  <div class="greeting" id="inform">- ${greeting} -</div>
+<div class="greeting" id="inform">- ${greeting} -</div>
+<div class="now-playing">
   <img class="owner-pics" src="${owner_pics}" alt="My Pics">
+  <object style="opacity: 0; transition: 0.5s" data=https://6klabs.com/widget/spotify/8a49e2a227a94aa94a9c2d02786aa21610a3161530f50d5e7455404417354c22 width=”650″ height=”500″> <embed src=https://6klabs.com/widget/spotify/8a49e2a227a94aa94a9c2d02786aa21610a3161530f50d5e7455404417354c22 width=”650″ height=”500″> </embed></object>
+</div>
   <h1>${owner_name}</h1>
   <h2>
   ${owner_flag}
-  </br>
-  ${owner_desc}
   </h2>
+  <p class="desc">
+  ${owner_desc}
+  </p>
 `;
 
 let linkHTML = "";
@@ -74,3 +78,12 @@ links.forEach((link) => {
   `;
   linkList.innerHTML = linkHTML;
 });
+
+setTimeout(() => {
+  document.querySelector("object").style.opacity = "1";
+}, 5000);
+
+setTimeout(() => {
+  document.querySelector(".owner-pics").style.filter =
+    "blur(2px) brightness(0.6)";
+}, 5000);

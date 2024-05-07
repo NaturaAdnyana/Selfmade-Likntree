@@ -1,7 +1,7 @@
 {
   "owner_name": "Natura Adnyana",
-  "owner_flag": "half indo-jpn.",
-  "owner_desc": "idk chatgpt didn't give me any perfect caption.",
+  "owner_flag": "Half bali-japan.",
+  "owner_desc": "idk chatgpt didn't give me any good caption.",
   "owner_pics": "images/profile.jpg",
   "links": [
     {
@@ -14,13 +14,13 @@
     {
       "name": "Instagram",
       "icon": "images/instagram.png",
-      "desc": "My Instagram account (from 2015).",
+      "desc": "My Instagram account.",
       "link": "https://www.instagram.com/natura.adn/"
     },
     {
       "name": "LinkedIn",
       "icon": "images/linkedin.png",
-      "desc": "Go check my linkedin profile.",
+      "desc": "Go check my Linkedin profile.",
       "link": "https://www.linkedin.com/in/natura-adnyana/"
     },
     {
@@ -30,15 +30,15 @@
       "link": "https://github.com/NaturaAdnyana"
     },
     {
-      "name": "X",
+      "name": "Twitter",
       "icon": "images/x.png",
-      "desc": "Love hate elon musk.",
+      "desc": "What the hell is X?",
       "link": "https://x.com/inoue_natsura"
     },
     {
       "name": "Spotify",
       "icon": "images/spotify.png",
-      "desc": "Plz don't bankrupt.",
+      "desc": "Plz don't bankrupt Spotify.",
       "link": "https://open.spotify.com/user/21xc362ojhdjiwb5p4bumpqii?si=b77fa0e1cdfa42f3"
     },
     {
